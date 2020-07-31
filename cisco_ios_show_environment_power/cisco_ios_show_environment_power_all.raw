@@ -1,0 +1,4 @@
+SW  PID                 Serial#     Status           Sys Pwr  PoE Pwr  Watts
+--  ------------------  ----------  ---------------  -------  -------  -----
+1A  PWR-C4-950WAC-R     APS223101SY  OK              Good     n/a      950
+1B  PWR-C4-950WAC-R     APS224102F8  No Input Power  Bad      n/a      950

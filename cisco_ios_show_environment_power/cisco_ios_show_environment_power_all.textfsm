@@ -1,0 +1,15 @@
+Value SW (\S+)
+Value PID (\S+)
+Value SERIAL (\S+)
+Value STATUS ((\S+\s?)+)
+Value SYS_PWR (\S+)
+Value POE_PWR (\S+)
+Value WATTS (\S+)
+
+Start
+  ^SW\s+PID\s+Serial.+Status\s+Sys\s+Pwr\s+PoE\s+Pwr\s+Watts
+  ^--.*-\s*$$
+  ^${SW}\s+${PID}\s+${SERIAL}\s+${STATUS}\s+${SYS_PWR}\s+${POE_PWR}\s+${WATTS} -> Record
+  ^\s*$$
+  ^. -> Error 
+
