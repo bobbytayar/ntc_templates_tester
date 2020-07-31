@@ -27,7 +27,7 @@ def json_to_yml(json_result, yml_text):
  
 def main():
     
-    command = 'cisco_ios_show_environment_temperature'
+    command = 'cisco_ios_show_environment_power_all'
 
     raw_text = '{}.raw'.format(command)
     yml_text = '{}.yml'.format(command)

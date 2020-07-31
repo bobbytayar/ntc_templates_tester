@@ -13,3 +13,54 @@
   - n/a
   - '950'
 
+---
+parsed_sample:
+- PID: PWR-C4-950WAC-R
+  POE_PWR: n/a
+  SERIAL: APS223101SY
+  STATUS: 'OK '
+  SW: 1A
+  SYS_PWR: Good
+  WATTS: '950'
+- PID: PWR-C4-950WAC-R
+  POE_PWR: n/a
+  SERIAL: APS224102F8
+  STATUS: 'No Input Power '
+  SW: 1B
+  SYS_PWR: Bad
+  WATTS: '950'
+
+---
+parsed_sample:
+- PID: PWR-C4-950WAC-R
+  POE_PWR: n/a
+  SERIAL: APS223101SY
+  STATUS: 'OK '
+  SW: 1A
+  SYS_PWR: Good
+  WATTS: '950'
+- PID: PWR-C4-950WAC-R
+  POE_PWR: n/a
+  SERIAL: APS224102F8
+  STATUS: 'No Input Power '
+  SW: 1B
+  SYS_PWR: Bad
+  WATTS: '950'
+
+---
+parsed_sample:
+- PID: PWR-C4-950WAC-R
+  POE_PWR: n/a
+  SERIAL: APS223101SY
+  STATUS: 'OK '
+  SW: 1A
+  SYS_PWR: Good
+  WATTS: '950'
+- PID: PWR-C4-950WAC-R
+  POE_PWR: n/a
+  SERIAL: APS224102F8
+  STATUS: 'No Input Power '
+  SW: 1B
+  SYS_PWR: Bad
+  WATTS: '950'
+
